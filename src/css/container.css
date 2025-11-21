@@ -1,19 +1,24 @@
-/* Styles for Mobile devices */
 .container {
-  min-width: 320px;
-  max-width: 375px;
-  margin: 0 auto;
-  padding: 0 16px;
+  max-width: 1440px;
+  padding: 0 15px;
 }
-/* Styles for Tablet devices */
-@media only screen and (min-width: 768px) {
-  .container {
-    max-width: 768px;
-  }
+.main-link{
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
 }
-/* Styles for Desktop devices */
-@media only screen and (min-width: 1200px) {
-  .container {
-    max-width: 1200px;
-  }
+.ul-list {
+  display: flex;
+  align-items: center;
+  gap: 80px;
+}
+.ul-item {
+  font-size: 36px;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  transition: 200ms ease-in;
+}
+.ul-link:hover,
+.ul-link:focus {
+  color: #747bff;
 }
