@@ -5,9 +5,6 @@
 .form {
   margin-top: 36px;
   max-width: 360px;
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
 }
 .form > label {
   width: 100%;
@@ -16,6 +13,7 @@
   color: #2e2f42;
   display: flex;
   flex-direction: column;
+  margin-bottom: 16px;
 }
 .form input[name='delay'] {
   padding-left: 16px;
@@ -35,7 +33,7 @@
   border-color: #4e75ff;
 }
 .form fieldset {
-    font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   border-radius: 4px;
   line-height: 1.5;
   letter-spacing: 0.04em;
@@ -58,9 +56,10 @@ form input[type='radio'] {
 form input[type='radio']:checked {
   border-color: #4d5ae5;
 }
-.form button {
-  font-family: 'Montserrat', sans-serif;
+.form button[type='submit'] {
+  margin-top: 24px;
   cursor: pointer;
+  width: 100%;
   border-radius: 8px;
   padding: 8px 0;
   border: none;
@@ -70,6 +69,7 @@ form input[type='radio']:checked {
   letter-spacing: 0.04em;
   color: #fff;
   transition: background-color 250ms ease-in;
+  font-size: 16px;
 }
 .form button:hover {
   background-color: #6c8cff;
